@@ -1,0 +1,17 @@
+{
+	"name": "aws-scheduled-cron",
+	"version": "1.0.0",
+	"description": "Example of creating a function that runs as a cron job using the serverless `schedule` event",
+	"author": "",
+	"main": "handler.js",
+	"license": "MIT",
+	"devDependencies": {
+		"aws-sdk": "^2.182.0"
+	},
+	"dependencies": {
+		"es6-promise-pool": "^2.5.0",
+		"moment": "^2.20.1",
+		"request": "^2.83.0",
+		"request-promise": "^4.2.2"
+	}
+}
